@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HDD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <nav class="menu">
+        <label class="logo">BTI</label>
+        <ul class="menu-items">
+            <li class="active"><a href="#inicio">Inicio</a></li>
+            <li><a href="#tipos">Tipos</a></li>
+            <li><a href="#vs">HDD vs SSD</a></li>
+        </ul>
+    </nav>
+    <span class="boton">
+        <i class="fa bars"></i>
+    </span>
+
+
+    <div class="container">
+        <section id="inicio">
+            <div class="fondo">
+                <div class="titulo" data-aos="fade-up">
+                    <h1>DISCO DURO HDD</h1>
+                </div>
+            </div>
+        </section>
+        <section id="tipos">
+            <div class="fondo2" data-aos="fade-up">
+                <div>
+                    <div>
+                        <h2>Tipos de HDD</h2>
+                    </div>
+                <div class="hdd-container">
+                    <div class="imagen-pequena" data-aos="zoom-in">
+                        <img src="./images/hddtr.png" alt="HDD Tradicionales">
+                        <h3>HDD Tradicionales</h3>
+                    </div>
+                    <div class="imagen-pequena" data-aos="zoom-in">
+                        <img src="./images/hddnas.png" alt="Discos duros empresariales">
+                        <h3>HDD empresariales</h3>
+                    </div>
+                    <div class="imagen-pequena" data-aos="zoom-in">
+                        <img src="./images/hddexx.png" alt="HDD externos">
+                        <h3>HDD externos</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="vs">
+            <div class="fondo3" data-aos="fade-up">
+                <div class="contenido">
+                <h2>HDD vs SSD</h2>
+                <table border="3px" data-aos="zoom-out-up">
+                        <tr>
+                            <th>PRINCIPALES VENTAJAS</th>
+                            <th>SSD</th>
+                            <th>HDD</th>
+                        </tr>
+                        <tr>
+                            <th>CAPACIDAD</th>
+                            <td>En general entre 256 GB y 4TB</td>
+                            <td>En general entre 1 y 10 TB</td>
+                        </tr>
+                        <tr>
+                            <th>CAPACIDAD</th>
+                            <td>Menor consumo</td>
+                            <td>Mayor consumo</td>
+                        </tr>
+                        <tr>
+                            <th>COSTE</th>
+                            <td>Bastante más caros</td>
+                            <td>Mucho más económicos</td>
+                        </tr>
+                        <tr>
+                            <th>RUIDO</th>
+                            <td>Más silencioso por no tener partes móviles</td>
+                            <td>Algo más ruidoso por tener partes móviles</td>
+                        </tr>
+                        <tr>
+                            <th>VIBRACIONES</th>
+                            <td>No vibra por no tener partes móviles</td>
+                            <td>El giro de sus discos puede provocar leves vibraciones</td>
+                        </tr>
+                        <tr>
+                            <th>FRAGMENTACIÓN</th>
+                            <td>No tiene</td>
+                            <td>Puede darse</td>
+                        </tr>
+                        <tr>
+                            <th>DURABILIDAD</th>
+                            <td>Sus celdas pueden reescribirse un número limitado de veces</td>
+                            <td>Con partes mecánicas que pueden dañarse con movimientos</td>
+                        </tr>
+                        <tr>
+                            <th>TIEMPO DE ARRANQUE DE SO</th>
+                            <td>7 segundos</td>
+                            <td>16 segundos</td>
+                        </tr>
+                        <tr>
+                            <th>TRANSFERENCIA DE DATOS</th>
+                            <td>En general, entre 200 y 550 MB/s</td>
+                            <td>En general entre 50 y 150 MB/s</td>
+                        </tr>
+                        <tr>
+                            <th>AFECTADO POR EL MAGNETISMO</th>
+                            <td>No</td>
+                            <td>El magnetismo puede eliminar datos</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
